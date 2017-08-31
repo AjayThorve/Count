@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="org.aat.count.Start"
+    tools:showIn="@layout/activity_start">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:srcCompat="@mipmap/main_logo"
+        android:layout_alignLeft="@+id/SubmitButton"
+        android:layout_alignStart="@+id/SubmitButton"
+        android:layout_alignRight="@+id/SubmitButton"
+        android:layout_alignEnd="@+id/SubmitButton" />
+
+    <EditText
+        android:id="@+id/editTextCount"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="178dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="No. of Things to Count?"
+        android:inputType="number"
+        android:textCursorDrawable="@color/colorButtonNormal"
+        android:textSize="19sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="88dp"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/SubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_below="@+id/editTextCount"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorButtonNormal"
+        android:text="Submit"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

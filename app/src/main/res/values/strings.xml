@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Count</string>
+    <string name="toggle_turn_on">Turn On</string>
+    <string name="toggle_turn_off">Turn Off</string>
+    <string name="btn_display">Display</string>
+    <string name="title_activity_start">Start</string>
+    <string name="Dialog_Message">Enter Category Name</string>
+    <string name="ok">confirm</string>
+    <string name="cancel">cancel</string>
+</resources>
